@@ -16,3 +16,4 @@
 02:21:36 <subbuallamaraju> next Srinivasan
 02:21:47 <subbuallamaraju> next jevonyeoh
 02:30:12 <gluong> would it be possible to pick up a bug that might be considered a low-hanging-fruit / good-starter-bug?
+02:31:53 <gluong> thanks!
