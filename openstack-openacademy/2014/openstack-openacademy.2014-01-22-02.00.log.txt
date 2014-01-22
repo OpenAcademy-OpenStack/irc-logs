@@ -1,1 +1,8 @@
 02:00:31 <subbuallamaraju> #startmeeting kickoff-meeting
+02:00:32 <osoabot> Meeting started Wed Jan 22 02:00:31 2014 UTC.  The chair is subbuallamaraju. Information about MeetBot at http://wiki.debian.org/MeetBot.
+02:00:33 <osoabot> Useful Commands: #action #agreed #help #info #idea #link #topic.
+02:01:07 <subbuallamaraju> Gabriel
+02:01:10 <subbuallamaraju> Siddharth
+02:01:15 <subbuallamaraju> Tim from Columbia
+02:01:20 <subbuallamaraju> Sri froM CMU
+02:01:54 <atheendra> I'm also there but my mic seems to be not working
