@@ -6,3 +6,4 @@
 02:01:15 <subbuallamaraju> Tim from Columbia
 02:01:20 <subbuallamaraju> Sri froM CMU
 02:01:54 <atheendra> I'm also there but my mic seems to be not working
+02:11:41 <subbuallamaraju> Expectations: ramp up, learn, open source workflow, how to manage tasks, finally your code committed
