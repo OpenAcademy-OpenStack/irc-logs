@@ -7,3 +7,5 @@
 02:01:20 <subbuallamaraju> Sri froM CMU
 02:01:54 <atheendra> I'm also there but my mic seems to be not working
 02:11:41 <subbuallamaraju> Expectations: ramp up, learn, open source workflow, how to manage tasks, finally your code committed
+02:12:19 <subbuallamaraju> Make a presentation to the rest of the students
+02:12:41 <subbuallamaraju> hello atheendra
