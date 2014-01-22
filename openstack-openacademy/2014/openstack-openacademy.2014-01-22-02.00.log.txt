@@ -25,3 +25,7 @@
 02:34:59 <subbuallamaraju> sounds good
 02:35:04 <Srinivasan> ah
 02:36:55 <Srinivasan> shall do that
+02:42:03 <derek_c> thanks
+02:42:09 <gluong> thanks subbu
+02:42:13 <subbuallamaraju> Ending the meeting
+02:42:15 <subbuallamaraju> #endmeeting
