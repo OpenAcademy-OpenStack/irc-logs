@@ -33,3 +33,5 @@
 02:15:13 <subbu_allamaraju> In OpenStack there is no equivalent.
 02:15:35 <subbu_allamaraju> There are also situations where policies dictate that credentials should not be stored like that.
 02:15:49 <subbu_allamaraju> That's the general idea.
+02:16:49 <deen> hello everybody
+02:16:54 <subbu_allamaraju> Hi deen
