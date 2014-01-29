@@ -56,3 +56,9 @@
 02:23:43 <subbu_allamaraju> I also encourage you try how two factor auth works on google, AWS etc
 02:24:03 <subbu_allamaraju> The next one is Access Keys.
 02:24:41 <subbu_allamaraju> This is in the same problem domain.
+02:25:10 <subbu_allamaraju> BTW - just noticed In the above I mixed up the credential store use case in the first project.
+02:25:27 <subbu_allamaraju> Please ignore that. Access keys is there to avoid storing shared credentails
+02:25:31 <vishwa> yes subbu I was confused :)
+02:25:39 <subbu_allamaraju> me too :)
+02:25:49 <subbu_allamaraju> Sorry about that
+02:25:57 <subbu_allamaraju> long day
