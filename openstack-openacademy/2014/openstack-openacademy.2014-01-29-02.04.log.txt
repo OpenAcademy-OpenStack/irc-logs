@@ -23,3 +23,7 @@
 02:10:30 <thuc> I added one https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/exercises/instance_connectivity_check.md
 02:10:33 <gluong> I think it would be good to dive further into the codebase and push some code if the time permits
 02:11:43 <subbu_allamaraju> How about this - once we discuss the projects, and we have a general consensus on who would like to work on what, we can tweak the exercise to be in that area. OpenStack is very large.
+02:12:21 <Yu> I agree
+02:12:33 <gluong> sounds good
+02:12:42 <subbu_allamaraju> Great
+02:12:53 <subbu_allamaraju> Let's go project by project
