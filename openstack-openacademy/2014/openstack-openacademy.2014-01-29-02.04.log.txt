@@ -40,3 +40,5 @@
 02:17:51 <Srinivasan> as for the actual code generation part
 02:17:52 <deen> There are some people on the channel #OpenAcademy-OpenStack
 02:17:57 <subbu_allamaraju> The work in this area involves changes to keystone, horizon (UI), UI etc
+02:18:10 <subbu_allamaraju> Srinivasan: I included a python example
+02:18:44 <subbu_allamaraju> For example, http://throwingfire.com/you-can-be-a-twofactor-hero/ shows how to mint a token, show a qr code to the user in a browser, and register with the Google Authenticator app
