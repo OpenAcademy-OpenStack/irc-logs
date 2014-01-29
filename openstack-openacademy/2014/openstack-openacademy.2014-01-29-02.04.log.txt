@@ -102,3 +102,4 @@
 02:39:01 <subbu_allamaraju> We used celery at that time, but there may  be better options now.
 02:39:28 <subbu_allamaraju> thuc - would you like todescribe Repoman?
 02:39:50 <thuc> sure
+02:40:35 <thuc> The purpose is to reclaim unused VMs.
