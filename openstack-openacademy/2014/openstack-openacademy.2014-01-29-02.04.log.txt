@@ -189,3 +189,5 @@
 03:15:04 <ropeck> I missed the beginning of the chat, so I don't know what the discussion style is, so I'll try to be brief.
 03:15:43 <subbu_allamaraju> please go ahead to give an overview
 03:15:43 <ropeck> The project's use case is when a hypervisor is full and we know many of the vms are not really needed today but could be difficult to recreate.
+03:16:26 <ropeck> The intent is to make it simpler to remove them and recreate them with our tool than to try to justify using hypervisor resources every few weeks.
+03:16:56 <ropeck> As I wrote in the email earlier, this is sort of a hard suspend of the vm.
