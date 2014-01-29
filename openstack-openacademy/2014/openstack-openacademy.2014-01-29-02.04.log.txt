@@ -150,3 +150,7 @@
 02:59:13 <subbu_allamaraju> Any other questions?
 02:59:51 <subbu_allamaraju> Moving to the next one
 02:59:56 <vishwa> dading: Why do you say that the scheduler will schedule all the requests to a small amount of hypervisors in peak of provision?
+03:00:05 <vishwa> oh sorry subbu!
+03:00:09 <subbu_allamaraju> I'll wait
+03:00:39 <dading> vishwa: one reason is scheduler doesn't take consideration of other requests at that time.
+03:00:58 <dading> it is basically static logic not based on runtime situation
