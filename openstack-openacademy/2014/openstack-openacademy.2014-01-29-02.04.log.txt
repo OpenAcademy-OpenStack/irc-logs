@@ -90,3 +90,6 @@
 02:34:10 <subbu_allamaraju> will be
 02:34:55 <dading> subbu_allamaraju the vm needs a little clarification, like what aspects of the vm should be copied.
 02:35:11 <subbu_allamaraju> Let me share how we did this
+02:36:04 <subbu_allamaraju> KVM manages the VM on the local disk on nova-compute node. You can see this in nova/virt/libvirt package
+02:36:24 <subbu_allamaraju> We created a VM of the same flavor on the destination first.
+02:37:01 <subbu_allamaraju> Then shutdown the VM on the source, and copy the file from the old compute node to the new one
