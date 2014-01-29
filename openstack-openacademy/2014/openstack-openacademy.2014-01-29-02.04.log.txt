@@ -62,3 +62,5 @@
 02:25:39 <subbu_allamaraju> me too :)
 02:25:49 <subbu_allamaraju> Sorry about that
 02:25:57 <subbu_allamaraju> long day
+02:26:10 <subbu_allamaraju> thoughts on this?
+02:26:41 <vishwa> would this be similar to the way AWS handles access keys and secret keys?
