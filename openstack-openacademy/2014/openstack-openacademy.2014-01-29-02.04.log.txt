@@ -173,3 +173,5 @@
 03:08:26 <subbu_allamaraju> The takeaway for you is that you will learn how to write a driver for nova-compute and go through the full lifecycle
 03:08:57 <subbu_allamaraju> It allows any OpenStack operator to simulate their control plane (i.e. APIs, schedulers, rabbitmq, database etc)
 03:08:59 <subbu_allamaraju> for load
+03:09:33 <subbu_allamaraju> We will go through the flows of these projects again when we meet in about 10 days from now
+03:09:51 <subbu_allamaraju> comments? questions?
