@@ -64,3 +64,6 @@
 02:25:57 <subbu_allamaraju> long day
 02:26:10 <subbu_allamaraju> thoughts on this?
 02:26:41 <vishwa> would this be similar to the way AWS handles access keys and secret keys?
+02:27:04 <subbu_allamaraju> exactly
+02:27:13 <subbu_allamaraju> but in OpenStack style
+02:27:46 <vishwa> great!
