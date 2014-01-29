@@ -154,3 +154,6 @@
 03:00:09 <subbu_allamaraju> I'll wait
 03:00:39 <dading> vishwa: one reason is scheduler doesn't take consideration of other requests at that time.
 03:00:58 <dading> it is basically static logic not based on runtime situation
+03:01:12 <subbu_allamaraju> welcome ropeck
+03:01:28 <vishwa> thanks for clearing that up dading!
+03:01:30 <subbu_allamaraju> We're discussing project 5 on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
