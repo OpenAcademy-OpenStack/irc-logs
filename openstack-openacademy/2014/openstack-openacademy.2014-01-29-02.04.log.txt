@@ -80,3 +80,5 @@
 02:31:09 <subbu_allamaraju> So we ended up writing a tool like this to forklift VMs from one deployment to another.
 02:31:20 <subbu_allamaraju> Downtime for each VM was about 5 minutes
 02:31:39 <subbu_allamaraju> This was a fun exercise.
+02:32:37 <subbu_allamaraju> This project involves good understanding of APIs like Keystone and Glance, as well as how nova-compute manages VMs.
+02:32:54 <vishwa> in what way will this project be different from the tool that you'd developed Subbu?
