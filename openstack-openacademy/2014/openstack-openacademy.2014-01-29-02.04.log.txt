@@ -96,3 +96,7 @@
 02:37:11 <subbu_allamaraju> nova would not know that the file changed on the disk
 02:37:23 <subbu_allamaraju> I mean nova on the dest cloud
 02:37:54 <subbu_allamaraju> one of the challenge is to orchestrate this change so that we can move hundreds of VMs in parallel
+02:38:19 <subbu_allamaraju> in one run, we migrated over 1000 VMs in about two hours
+02:38:31 <subbu_allamaraju> so, we need to solve for performance as well.
+02:38:48 <subbu_allamaraju> we will need to select some framework to do this concurrently
+02:39:01 <subbu_allamaraju> We used celery at that time, but there may  be better options now.
