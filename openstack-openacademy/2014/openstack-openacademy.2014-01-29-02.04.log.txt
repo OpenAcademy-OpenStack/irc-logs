@@ -175,3 +175,5 @@
 03:08:59 <subbu_allamaraju> for load
 03:09:33 <subbu_allamaraju> We will go through the flows of these projects again when we meet in about 10 days from now
 03:09:51 <subbu_allamaraju> comments? questions?
+03:10:37 <Yu> So what are we supposed to do during the 10 days?
+03:11:00 <subbu_allamaraju> tough question ;)
