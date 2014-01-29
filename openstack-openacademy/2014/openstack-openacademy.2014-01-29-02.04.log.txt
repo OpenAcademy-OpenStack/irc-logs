@@ -27,3 +27,4 @@
 02:12:33 <gluong> sounds good
 02:12:42 <subbu_allamaraju> Great
 02:12:53 <subbu_allamaraju> Let's go project by project
+02:13:11 <subbu_allamaraju> First is to introduce two factor auth.
