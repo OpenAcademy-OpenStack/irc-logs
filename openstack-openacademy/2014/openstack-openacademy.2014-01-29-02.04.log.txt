@@ -179,3 +179,7 @@
 03:11:00 <subbu_allamaraju> tough question ;)
 03:11:24 <gluong> I believe there is still the hibernation of VM instances project that hasn't been mentioned
 03:11:38 <subbu_allamaraju> correct
+03:12:13 <subbu_allamaraju> Yu - We have another short exercise to finish. Once that is done, we will finalize selection, and start working. Why wait?
+03:12:35 <gluong> when should we expect the final selection to be announced?
+03:12:46 <subbu_allamaraju> As I indicated earlier, there are going to five of us to mentor.
+03:12:47 <Yu> OK. Got it : )
