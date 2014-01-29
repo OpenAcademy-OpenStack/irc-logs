@@ -195,3 +195,5 @@
 03:18:50 <ropeck> The project will work out a scope and use case and then work to solve that case without extra features that will be complicated.
 03:18:52 <subbu_allamaraju> like cold storage?
 03:19:38 <ropeck> For bonus points, we can consider things like migration between hypervisor types (kvm -> esx?) or flavor changes when restoring the vm, etc.  but those would be extra and not part of the simpler first phase.
+03:20:32 <ropeck> yes — cold storage in that the vm is not running and is no longer on the hypervisor at all.  The name hibernate may not be the best — we can choose something else to call the state/project that is clear
+03:20:56 <ropeck> there are more details in the project write up, but those are the main points.
