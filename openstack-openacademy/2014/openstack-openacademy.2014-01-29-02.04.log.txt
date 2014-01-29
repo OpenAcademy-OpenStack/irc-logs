@@ -128,3 +128,11 @@
 02:52:59 <dading> so for example if there is a peak of provision,
 02:53:33 <dading> it's likely to schedule all requests to small amount of hypervisors
 02:53:48 <dading> leads to poor performance in that case.
+02:54:08 <dading> this project is to address the performance of scheduling logic
+02:54:25 <jevonyeoh> for the runtime, are there other models to possibly refer to for inspiration?
+02:54:26 <subbu_allamaraju> sorry to interrupt - just doing a timecheck. Are folks okay to stay for a few more minutes to complete this
+02:54:38 <gluong> np here
+02:54:39 <atheendra> Sure.
+02:54:42 <vishwa> Sure
+02:54:53 <Yu> Suew
+02:54:58 <Yu> Sure*
