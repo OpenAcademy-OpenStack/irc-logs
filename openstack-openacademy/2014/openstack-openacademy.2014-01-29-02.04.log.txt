@@ -29,3 +29,7 @@
 02:12:53 <subbu_allamaraju> Let's go project by project
 02:13:11 <subbu_allamaraju> First is to introduce two factor auth.
 02:14:10 <subbu_allamaraju> As you saw in the first exercise, users have to include their crendentials in scripts/code to talk to OpenStack APIs.
+02:15:08 <subbu_allamaraju> This may be okay in some cases, but there is a chance of leaking. Recently someone put his AWS credentials in a script and accidentally leaked it. Someone else abused the credentials. He noticed that and revoked the credentials since those were temporary.
+02:15:13 <subbu_allamaraju> In OpenStack there is no equivalent.
+02:15:35 <subbu_allamaraju> There are also situations where policies dictate that credentials should not be stored like that.
+02:15:49 <subbu_allamaraju> That's the general idea.
