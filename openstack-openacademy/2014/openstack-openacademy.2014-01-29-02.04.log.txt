@@ -112,3 +112,5 @@
 02:44:41 <gluong> or how will the service interact with the operator
 02:45:05 <thuc> UI would be one way to do it.
 02:45:50 <subbu_allamaraju> I guess once there is an API, UI and CLI can come in
+02:46:06 <gluong> sounds good thank you
+02:46:39 <thuc> questions?
