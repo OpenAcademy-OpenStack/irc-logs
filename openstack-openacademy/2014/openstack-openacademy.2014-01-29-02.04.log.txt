@@ -162,3 +162,6 @@
 03:04:12 <subbu_allamaraju> This project came up recently as we often run into performance issues that are extremely difficult to simulate in a lab setup
 03:04:49 <subbu_allamaraju> Some of these problems show up when we have a large number of hypervisors
 03:05:02 <subbu_allamaraju> Here is an example.
+03:05:23 <subbu_allamaraju> nova-compute nodes emit a heartbeat about VMs to nova.
+03:05:30 <subbu_allamaraju> These messages go over rabbitmq.
+03:05:57 <subbu_allamaraju> Sometimes rabbitmq gets clogged up and usually melts down a good chunk of OpenStack APIs
