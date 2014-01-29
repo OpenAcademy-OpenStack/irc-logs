@@ -206,3 +206,5 @@
 03:27:58 <ropeck> cold storage (like this http://www.datanami.com/datanami/2013-10-18/facebook%E2%80%99s_open_compute_cold_storage_on_display.html) isn't something we have available in our architecture
 03:28:36 <subbu_allamaraju> I think once an API level write is made, where it ends up can be a deployment decision
 03:28:50 <gluong> that was what i was thinking of.. but still very cool
+03:29:33 <subbu_allamaraju> any other questions
+03:29:43 <subbu_allamaraju> ?
