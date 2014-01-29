@@ -121,3 +121,4 @@
 02:49:02 <dading> right now the scheduler in nova is implemented in such a simple way
 02:49:27 <dading> that it gets update from hypervisors every couple of mins
 02:49:49 <dading> and base on that it goes through all the hypervisors when it needs to schedule a new instance
+02:50:11 <dading> since there can be multiple filter applied
