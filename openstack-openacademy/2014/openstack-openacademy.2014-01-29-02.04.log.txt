@@ -1,2 +1,6 @@
 02:04:51 <subbu_allamaraju> #startmeeting weekly-syncup
 02:04:51 <gluong> re-ran ./stack.sh and that seemed to start up keystone
+02:04:52 <osoabot> Meeting started Wed Jan 29 02:04:51 2014 UTC.  The chair is subbu_allamaraju. Information about MeetBot at http://wiki.debian.org/MeetBot.
+02:04:53 <osoabot> Useful Commands: #action #agreed #help #info #idea #link #topic.
+02:05:27 <subbu_allamaraju> The agenda today is to review https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
+02:05:52 <subbu_allamaraju> We have dading, thuc and myself from eBay
