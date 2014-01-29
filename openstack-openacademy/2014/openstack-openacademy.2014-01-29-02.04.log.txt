@@ -82,3 +82,7 @@
 02:31:39 <subbu_allamaraju> This was a fun exercise.
 02:32:37 <subbu_allamaraju> This project involves good understanding of APIs like Keystone and Glance, as well as how nova-compute manages VMs.
 02:32:54 <vishwa> in what way will this project be different from the tool that you'd developed Subbu?
+02:33:09 <subbu_allamaraju> because we wrote a throw-away project
+02:33:22 <subbu_allamaraju> It was not good enough for reuse.
+02:33:31 <vishwa> ah I see, this would be a far more refined solution then
+02:33:44 <subbu_allamaraju> We refine it to be reusable on any OpenStack cloud
