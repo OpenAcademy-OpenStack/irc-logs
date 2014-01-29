@@ -54,3 +54,5 @@
 02:23:08 <subbu_allamaraju> Sure. We can discuss alternatives.
 02:23:42 <atheendra> OK, sounds good.
 02:23:43 <subbu_allamaraju> I also encourage you try how two factor auth works on google, AWS etc
+02:24:03 <subbu_allamaraju> The next one is Access Keys.
+02:24:41 <subbu_allamaraju> This is in the same problem domain.
