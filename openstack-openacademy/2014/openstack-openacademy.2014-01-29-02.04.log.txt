@@ -159,3 +159,6 @@
 03:01:30 <subbu_allamaraju> We're discussing project 5 on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
 03:02:02 <ropeck> hi there!  finally got my irc going correctly
 03:03:37 <subbu_allamaraju> moving to the next one
+03:04:12 <subbu_allamaraju> This project came up recently as we often run into performance issues that are extremely difficult to simulate in a lab setup
+03:04:49 <subbu_allamaraju> Some of these problems show up when we have a large number of hypervisors
+03:05:02 <subbu_allamaraju> Here is an example.
