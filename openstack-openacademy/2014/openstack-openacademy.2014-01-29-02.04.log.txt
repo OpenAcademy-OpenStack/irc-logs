@@ -67,3 +67,9 @@
 02:27:04 <subbu_allamaraju> exactly
 02:27:13 <subbu_allamaraju> but in OpenStack style
 02:27:46 <vishwa> great!
+02:28:15 <Srinivasan> how would this be temperery?
+02:28:17 <subbu_allamaraju> Both projects will take atleast two.
+02:28:44 <subbu_allamaraju> They won't be temporary, but the user can set an expiration time when askign for them
+02:28:44 <Srinivasan> or is it up to the user to revoke the keys like on aws
+02:28:51 <Srinivasan> ah okay
+02:28:51 <subbu_allamaraju> exactly
