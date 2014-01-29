@@ -198,3 +198,5 @@
 03:20:32 <ropeck> yes — cold storage in that the vm is not running and is no longer on the hypervisor at all.  The name hibernate may not be the best — we can choose something else to call the state/project that is clear
 03:20:56 <ropeck> there are more details in the project write up, but those are the main points.
 03:21:31 <ropeck> This is an active area we are working on in PayPal now, so it would be a real world type openstack project
+03:23:20 <subbu_allamaraju> questions?
+03:23:21 <ropeck> any questions or things I can try to make more clear?
