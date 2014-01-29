@@ -103,3 +103,6 @@
 02:39:28 <subbu_allamaraju> thuc - would you like todescribe Repoman?
 02:39:50 <thuc> sure
 02:40:35 <thuc> The purpose is to reclaim unused VMs.
+02:41:04 <thuc> These could be VMs that are inaccessible due to failures during boot time.
+02:41:22 <thuc> VMs whose owners are no longer active
+02:41:53 <thuc> And also VMs that are no longer needed.
