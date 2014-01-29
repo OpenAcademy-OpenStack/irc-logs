@@ -35,3 +35,8 @@
 02:15:49 <subbu_allamaraju> That's the general idea.
 02:16:49 <deen> hello everybody
 02:16:54 <subbu_allamaraju> Hi deen
+02:17:05 <deen> Hey Subbu.
+02:17:13 <subbu_allamaraju> We are just discussing the projects. Started with the first one on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
+02:17:51 <Srinivasan> as for the actual code generation part
+02:17:52 <deen> There are some people on the channel #OpenAcademy-OpenStack
+02:17:57 <subbu_allamaraju> The work in this area involves changes to keystone, horizon (UI), UI etc
