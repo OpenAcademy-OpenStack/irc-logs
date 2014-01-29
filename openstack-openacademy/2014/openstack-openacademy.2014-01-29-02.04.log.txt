@@ -194,3 +194,4 @@
 03:17:59 <ropeck> If we only use 'nova pause' or 'nova suspend', the vm will still be present on the hypervisor taking local disk space and other resources.  The hibernated instance is not on the hypervisor.  It's only a disk and metadata file on a swift cluster.
 03:18:50 <ropeck> The project will work out a scope and use case and then work to solve that case without extra features that will be complicated.
 03:18:52 <subbu_allamaraju> like cold storage?
+03:19:38 <ropeck> For bonus points, we can consider things like migration between hypervisor types (kvm -> esx?) or flavor changes when restoring the vm, etc.  but those would be extra and not part of the simpler first phase.
