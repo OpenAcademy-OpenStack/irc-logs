@@ -183,3 +183,5 @@
 03:12:35 <gluong> when should we expect the final selection to be announced?
 03:12:46 <subbu_allamaraju> As I indicated earlier, there are going to five of us to mentor.
 03:12:47 <Yu> OK. Got it : )
+03:13:13 <subbu_allamaraju> gluong: shooting for this week. However, it is not clear how many students we have. Let's resume this after the last project
+03:13:30 <subbu_allamaraju> ropeck: your way
