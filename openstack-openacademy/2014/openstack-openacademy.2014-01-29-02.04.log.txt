@@ -93,3 +93,6 @@
 02:36:04 <subbu_allamaraju> KVM manages the VM on the local disk on nova-compute node. You can see this in nova/virt/libvirt package
 02:36:24 <subbu_allamaraju> We created a VM of the same flavor on the destination first.
 02:37:01 <subbu_allamaraju> Then shutdown the VM on the source, and copy the file from the old compute node to the new one
+02:37:11 <subbu_allamaraju> nova would not know that the file changed on the disk
+02:37:23 <subbu_allamaraju> I mean nova on the dest cloud
+02:37:54 <subbu_allamaraju> one of the challenge is to orchestrate this change so that we can move hundreds of VMs in parallel
