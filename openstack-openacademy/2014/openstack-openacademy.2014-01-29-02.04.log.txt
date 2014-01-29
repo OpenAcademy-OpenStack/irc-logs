@@ -200,3 +200,4 @@
 03:21:31 <ropeck> This is an active area we are working on in PayPal now, so it would be a real world type openstack project
 03:23:20 <subbu_allamaraju> questions?
 03:23:21 <ropeck> any questions or things I can try to make more clear?
+03:24:26 <gluong> when we say cold storage, are we referring to something like the open compute project?
