@@ -126,3 +126,5 @@
 02:51:47 <dading> another problem is,
 02:52:26 <dading> right now the scheduler doing static filter validation, and it does not take consideration of the runtime work load
 02:52:59 <dading> so for example if there is a peak of provision,
+02:53:33 <dading> it's likely to schedule all requests to small amount of hypervisors
+02:53:48 <dading> leads to poor performance in that case.
