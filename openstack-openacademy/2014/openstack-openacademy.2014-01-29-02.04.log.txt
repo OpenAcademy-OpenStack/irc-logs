@@ -19,3 +19,6 @@
 02:09:36 <theocean154> yep
 02:09:54 <theocean154> also as people get questions, email all the google group
 02:09:59 <subbu_allamaraju> I think thuc has one ready.
+02:10:23 <vishwa> yea I agree, another exercise would be great to get more familiarized
+02:10:30 <thuc> I added one https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/exercises/instance_connectivity_check.md
+02:10:33 <gluong> I think it would be good to dive further into the codebase and push some code if the time permits
