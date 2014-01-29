@@ -89,3 +89,4 @@
 02:34:02 <subbu_allamaraju> I'm sure a lot of operators will silently thanking the team that builds this.
 02:34:10 <subbu_allamaraju> will be
 02:34:55 <dading> subbu_allamaraju the vm needs a little clarification, like what aspects of the vm should be copied.
+02:35:11 <subbu_allamaraju> Let me share how we did this
