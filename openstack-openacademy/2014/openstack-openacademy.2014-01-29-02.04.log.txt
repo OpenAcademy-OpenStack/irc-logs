@@ -147,3 +147,6 @@
 02:57:20 <dading> question?
 02:57:32 <vishwa> dading: the case that you mention when you say "leads to poor performance in that case", how often does that occur in your opinion?
 02:58:46 <dading> vishwa: this will depend on user behavior, but in many PaaS use case, users will provision a bunch of vms at same time
+02:59:13 <subbu_allamaraju> Any other questions?
+02:59:51 <subbu_allamaraju> Moving to the next one
+02:59:56 <vishwa> dading: Why do you say that the scheduler will schedule all the requests to a small amount of hypervisors in peak of provision?
