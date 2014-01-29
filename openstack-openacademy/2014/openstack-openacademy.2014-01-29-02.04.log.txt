@@ -114,3 +114,7 @@
 02:45:50 <subbu_allamaraju> I guess once there is an API, UI and CLI can come in
 02:46:06 <gluong> sounds good thank you
 02:46:39 <thuc> questions?
+02:48:02 <subbu_allamaraju> can we move to the next one then?
+02:48:08 <gluong> yes
+02:48:21 <subbu_allamaraju> dading - would you like to describe?
+02:48:32 <dading> yep
