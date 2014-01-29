@@ -158,3 +158,4 @@
 03:01:28 <vishwa> thanks for clearing that up dading!
 03:01:30 <subbu_allamaraju> We're discussing project 5 on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
 03:02:02 <ropeck> hi there!  finally got my irc going correctly
+03:03:37 <subbu_allamaraju> moving to the next one
