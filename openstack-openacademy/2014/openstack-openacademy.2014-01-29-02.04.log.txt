@@ -122,3 +122,5 @@
 02:49:27 <dading> that it gets update from hypervisors every couple of mins
 02:49:49 <dading> and base on that it goes through all the hypervisors when it needs to schedule a new instance
 02:50:11 <dading> since there can be multiple filter applied
+02:51:17 <dading> so basically the time cost for scheduling is linear of the number of filter * number of hypervisors
+02:51:47 <dading> another problem is,
