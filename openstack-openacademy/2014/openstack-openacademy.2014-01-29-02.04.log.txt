@@ -77,3 +77,6 @@
 02:29:41 <subbu_allamaraju> this is fairly complex as it involves multiple APIs.
 02:30:10 <subbu_allamaraju> This is not an uncommon problem in private cloud situations.
 02:30:45 <subbu_allamaraju> For instance, about a year ago we had an OpenStack deployment running Essex version of OpenStack, and we could not do a clean live upgrade to Folsom.
+02:31:09 <subbu_allamaraju> So we ended up writing a tool like this to forklift VMs from one deployment to another.
+02:31:20 <subbu_allamaraju> Downtime for each VM was about 5 minutes
+02:31:39 <subbu_allamaraju> This was a fun exercise.
