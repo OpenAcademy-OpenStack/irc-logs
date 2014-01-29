@@ -222,3 +222,14 @@
 03:32:46 <deen> Mine is liudeen
 03:32:47 <subbu_allamaraju> Willl add
 03:33:01 <subbu_allamaraju> Any other topics?
+03:34:13 <subbu_allamaraju> Great. If nothing, I will end the meeting, and email a link to the log
+03:34:18 <subbu_allamaraju> Good night
+03:34:24 <vishwa> Subbu, in the future if we need to communicate with a specific mentor, should we email them directly or post on the google group?
+03:34:25 <gluong> good night and thank you all
+03:34:28 <vishwa> or something else?
+03:34:29 <Srinivasan> Good night.
+03:34:37 <dading> gn
+03:34:42 <Yu> Good night.
+03:34:48 <deen> good night
+03:34:49 <subbu_allamaraju> vishwa: I think group may be better since someone else may be able to help
+03:34:58 <subbu_allamaraju> #endmeeting

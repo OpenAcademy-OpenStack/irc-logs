@@ -1,0 +1,262 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>#openstack-openacademy log</title>
+<style type="text/css">
+/* For the .log.html */
+pre { /*line-height: 125%;*/
+      white-space: pre-wrap; }
+body { background: #f0f0f0; }
+
+body .tm  { color: #007020 }                      /* time */
+body .nk  { color: #062873; font-weight: bold }   /* nick, regular */
+body .nka { color: #007020; font-weight: bold }  /* action nick */
+body .ac  { color: #00A000 }                      /* action line */
+body .hi  { color: #4070a0 }                 /* hilights */
+/* Things to make particular MeetBot commands stick out */
+body .topic     { color: #007020; font-weight: bold }
+body .topicline { color: #000080; font-weight: bold }
+body .cmd       { color: #007020; font-weight: bold }
+body .cmdline  { font-weight: bold }
+
+</style>
+</head>
+
+<body>
+<pre><a name="l-1"></a><span class="tm">02:04:51</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="cmd">#startmeeting </span><span class="cmdline">weekly-syncup</span>
+<a name="l-2"></a><span class="tm">02:04:51</span><span class="nk"> &lt;gluong&gt;</span> re-ran ./stack.sh and that seemed to start up keystone
+<a name="l-3"></a><span class="tm">02:04:52</span><span class="nk"> &lt;osoabot&gt;</span> Meeting started Wed Jan 29 02:04:51 2014 UTC.  The chair is subbu_allamaraju. Information about MeetBot at http://wiki.debian.org/MeetBot.
+<a name="l-4"></a><span class="tm">02:04:53</span><span class="nk"> &lt;osoabot&gt;</span> Useful Commands: #action #agreed #help #info #idea #link #topic.
+<a name="l-5"></a><span class="tm">02:05:27</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> The agenda today is to review https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
+<a name="l-6"></a><span class="tm">02:05:52</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We have dading, thuc and myself from eBay
+<a name="l-7"></a><span class="tm">02:06:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I've setup a google doc to note project preferences - https://docs.google.com/a/subbu.org/spreadsheet/ccc?key=0ApntcBgpHeZldHhaaTI1V2NBb0JqbUZSWkZJS3dFV1E&amp;usp=drive_web#gid=0
+<a name="l-8"></a><span class="tm">02:06:25</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This is to record first and second preferences
+<a name="l-9"></a><span class="tm">02:06:35</span><span class="nk"> &lt;Srinivasan&gt;</span> sorry, wifi issues.
+<a name="l-10"></a><span class="tm">02:06:39</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> np
+<a name="l-11"></a><span class="tm">02:06:53</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Before we get started, any other topics on the agenda?
+<a name="l-12"></a><span class="tm">02:07:07</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Any feedback from devstack experience so far?
+<a name="l-13"></a><span class="tm">02:07:09</span><span class="nk"> &lt;vishwa&gt;</span> hi subbu, I don't think we have write preferences on the google doc
+<a name="l-14"></a><span class="tm">02:07:34</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="hi">vishwa:</span> fixed
+<a name="l-15"></a><span class="tm">02:08:08</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> If no other items on the agenda we can get started
+<a name="l-16"></a><span class="tm">02:08:57</span><span class="nk"> &lt;gluong&gt;</span> I was wondering if there will be any starter/good-first-bugs to work on
+<a name="l-17"></a><span class="tm">02:09:02</span><span class="nk"> &lt;gluong&gt;</span> prior to the project start
+<a name="l-18"></a><span class="tm">02:09:27</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Would another group exercise help?
+<a name="l-19"></a><span class="tm">02:09:36</span><span class="nk"> &lt;theocean154&gt;</span> yep
+<a name="l-20"></a><span class="tm">02:09:54</span><span class="nk"> &lt;theocean154&gt;</span> also as people get questions, email all the google group
+<a name="l-21"></a><span class="tm">02:09:59</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I think thuc has one ready.
+<a name="l-22"></a><span class="tm">02:10:23</span><span class="nk"> &lt;vishwa&gt;</span> yea I agree, another exercise would be great to get more familiarized
+<a name="l-23"></a><span class="tm">02:10:30</span><span class="nk"> &lt;thuc&gt;</span> I added one https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/exercises/instance_connectivity_check.md
+<a name="l-24"></a><span class="tm">02:10:33</span><span class="nk"> &lt;gluong&gt;</span> I think it would be good to dive further into the codebase and push some code if the time permits
+<a name="l-25"></a><span class="tm">02:11:43</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> How about this - once we discuss the projects, and we have a general consensus on who would like to work on what, we can tweak the exercise to be in that area. OpenStack is very large.
+<a name="l-26"></a><span class="tm">02:12:21</span><span class="nk"> &lt;Yu&gt;</span> I agree
+<a name="l-27"></a><span class="tm">02:12:33</span><span class="nk"> &lt;gluong&gt;</span> sounds good
+<a name="l-28"></a><span class="tm">02:12:42</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Great
+<a name="l-29"></a><span class="tm">02:12:53</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Let's go project by project
+<a name="l-30"></a><span class="tm">02:13:11</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> First is to introduce two factor auth.
+<a name="l-31"></a><span class="tm">02:14:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> As you saw in the first exercise, users have to include their crendentials in scripts/code to talk to OpenStack APIs.
+<a name="l-32"></a><span class="tm">02:15:08</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This may be okay in some cases, but there is a chance of leaking. Recently someone put his AWS credentials in a script and accidentally leaked it. Someone else abused the credentials. He noticed that and revoked the credentials since those were temporary.
+<a name="l-33"></a><span class="tm">02:15:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> In OpenStack there is no equivalent.
+<a name="l-34"></a><span class="tm">02:15:35</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> There are also situations where policies dictate that credentials should not be stored like that.
+<a name="l-35"></a><span class="tm">02:15:49</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> That's the general idea.
+<a name="l-36"></a><span class="tm">02:16:49</span><span class="nk"> &lt;deen&gt;</span> hello everybody
+<a name="l-37"></a><span class="tm">02:16:54</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Hi deen
+<a name="l-38"></a><span class="tm">02:17:05</span><span class="nk"> &lt;deen&gt;</span> Hey Subbu.
+<a name="l-39"></a><span class="tm">02:17:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We are just discussing the projects. Started with the first one on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
+<a name="l-40"></a><span class="tm">02:17:51</span><span class="nk"> &lt;Srinivasan&gt;</span> as for the actual code generation part
+<a name="l-41"></a><span class="tm">02:17:52</span><span class="nk"> &lt;deen&gt;</span> There are some people on the channel #OpenAcademy-OpenStack
+<a name="l-42"></a><span class="tm">02:17:57</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> The work in this area involves changes to keystone, horizon (UI), UI etc
+<a name="l-43"></a><span class="tm">02:18:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="hi">Srinivasan:</span> I included a python example
+<a name="l-44"></a><span class="tm">02:18:44</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> For example, http://throwingfire.com/you-can-be-a-twofactor-hero/ shows how to mint a token, show a qr code to the user in a browser, and register with the Google Authenticator app
+<a name="l-45"></a><span class="tm">02:19:08</span><span class="nk"> &lt;Srinivasan&gt;</span> okay, got t.
+<a name="l-46"></a><span class="tm">02:19:10</span><span class="nk"> &lt;deen&gt;</span> Ok.
+<a name="l-47"></a><span class="tm">02:19:14</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> As part of the design process we will have to decide what goes into the token
+<a name="l-48"></a><span class="tm">02:20:14</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> There was a blueprint in OpenStack. We will resurrect it, and try to submit code to OpenStack.
+<a name="l-49"></a><span class="tm">02:20:45</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> So it is important to polish the code and maintain the same conventions, unit tests etc.
+<a name="l-50"></a><span class="tm">02:20:55</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> any other questions on this project?
+<a name="l-51"></a><span class="tm">02:21:40</span><span class="nk"> &lt;atheendra&gt;</span> Is there any reason for choosing this method over others?
+<a name="l-52"></a><span class="tm">02:21:48</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> such as?
+<a name="l-53"></a><span class="tm">02:22:23</span><span class="nk"> &lt;atheendra&gt;</span> Like a key within the user space which does not require the use of a username/password at all?
+<a name="l-54"></a><span class="tm">02:23:08</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Sure. We can discuss alternatives.
+<a name="l-55"></a><span class="tm">02:23:42</span><span class="nk"> &lt;atheendra&gt;</span> OK, sounds good.
+<a name="l-56"></a><span class="tm">02:23:43</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I also encourage you try how two factor auth works on google, AWS etc
+<a name="l-57"></a><span class="tm">02:24:03</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> The next one is Access Keys.
+<a name="l-58"></a><span class="tm">02:24:41</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This is in the same problem domain.
+<a name="l-59"></a><span class="tm">02:25:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> BTW - just noticed In the above I mixed up the credential store use case in the first project.
+<a name="l-60"></a><span class="tm">02:25:27</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Please ignore that. Access keys is there to avoid storing shared credentails
+<a name="l-61"></a><span class="tm">02:25:31</span><span class="nk"> &lt;vishwa&gt;</span> yes subbu I was confused :)
+<a name="l-62"></a><span class="tm">02:25:39</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> me too :)
+<a name="l-63"></a><span class="tm">02:25:49</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Sorry about that
+<a name="l-64"></a><span class="tm">02:25:57</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> long day
+<a name="l-65"></a><span class="tm">02:26:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> thoughts on this?
+<a name="l-66"></a><span class="tm">02:26:41</span><span class="nk"> &lt;vishwa&gt;</span> would this be similar to the way AWS handles access keys and secret keys?
+<a name="l-67"></a><span class="tm">02:27:04</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> exactly
+<a name="l-68"></a><span class="tm">02:27:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> but in OpenStack style
+<a name="l-69"></a><span class="tm">02:27:46</span><span class="nk"> &lt;vishwa&gt;</span> great!
+<a name="l-70"></a><span class="tm">02:28:15</span><span class="nk"> &lt;Srinivasan&gt;</span> how would this be temperery?
+<a name="l-71"></a><span class="tm">02:28:17</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Both projects will take atleast two.
+<a name="l-72"></a><span class="tm">02:28:44</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> They won't be temporary, but the user can set an expiration time when askign for them
+<a name="l-73"></a><span class="tm">02:28:44</span><span class="nk"> &lt;Srinivasan&gt;</span> or is it up to the user to revoke the keys like on aws
+<a name="l-74"></a><span class="tm">02:28:51</span><span class="nk"> &lt;Srinivasan&gt;</span> ah okay
+<a name="l-75"></a><span class="tm">02:28:51</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> exactly
+<a name="l-76"></a><span class="tm">02:29:27</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> The next one is Flyway
+<a name="l-77"></a><span class="tm">02:29:41</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> this is fairly complex as it involves multiple APIs.
+<a name="l-78"></a><span class="tm">02:30:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This is not an uncommon problem in private cloud situations.
+<a name="l-79"></a><span class="tm">02:30:45</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> For instance, about a year ago we had an OpenStack deployment running Essex version of OpenStack, and we could not do a clean live upgrade to Folsom.
+<a name="l-80"></a><span class="tm">02:31:09</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> So we ended up writing a tool like this to forklift VMs from one deployment to another.
+<a name="l-81"></a><span class="tm">02:31:20</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Downtime for each VM was about 5 minutes
+<a name="l-82"></a><span class="tm">02:31:39</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This was a fun exercise.
+<a name="l-83"></a><span class="tm">02:32:37</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This project involves good understanding of APIs like Keystone and Glance, as well as how nova-compute manages VMs.
+<a name="l-84"></a><span class="tm">02:32:54</span><span class="nk"> &lt;vishwa&gt;</span> in what way will this project be different from the tool that you'd developed Subbu?
+<a name="l-85"></a><span class="tm">02:33:09</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> because we wrote a throw-away project
+<a name="l-86"></a><span class="tm">02:33:22</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> It was not good enough for reuse.
+<a name="l-87"></a><span class="tm">02:33:31</span><span class="nk"> &lt;vishwa&gt;</span> ah I see, this would be a far more refined solution then
+<a name="l-88"></a><span class="tm">02:33:44</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We refine it to be reusable on any OpenStack cloud
+<a name="l-89"></a><span class="tm">02:34:02</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I'm sure a lot of operators will silently thanking the team that builds this.
+<a name="l-90"></a><span class="tm">02:34:10</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> will be
+<a name="l-91"></a><span class="tm">02:34:55</span><span class="nk"> &lt;dading&gt;</span> subbu_allamaraju the vm needs a little clarification, like what aspects of the vm should be copied.
+<a name="l-92"></a><span class="tm">02:35:11</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Let me share how we did this
+<a name="l-93"></a><span class="tm">02:36:04</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> KVM manages the VM on the local disk on nova-compute node. You can see this in nova/virt/libvirt package
+<a name="l-94"></a><span class="tm">02:36:24</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We created a VM of the same flavor on the destination first.
+<a name="l-95"></a><span class="tm">02:37:01</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Then shutdown the VM on the source, and copy the file from the old compute node to the new one
+<a name="l-96"></a><span class="tm">02:37:11</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> nova would not know that the file changed on the disk
+<a name="l-97"></a><span class="tm">02:37:23</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I mean nova on the dest cloud
+<a name="l-98"></a><span class="tm">02:37:54</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> one of the challenge is to orchestrate this change so that we can move hundreds of VMs in parallel
+<a name="l-99"></a><span class="tm">02:38:19</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> in one run, we migrated over 1000 VMs in about two hours
+<a name="l-100"></a><span class="tm">02:38:31</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> so, we need to solve for performance as well.
+<a name="l-101"></a><span class="tm">02:38:48</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> we will need to select some framework to do this concurrently
+<a name="l-102"></a><span class="tm">02:39:01</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We used celery at that time, but there may  be better options now.
+<a name="l-103"></a><span class="tm">02:39:28</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> thuc - would you like todescribe Repoman?
+<a name="l-104"></a><span class="tm">02:39:50</span><span class="nk"> &lt;thuc&gt;</span> sure
+<a name="l-105"></a><span class="tm">02:40:35</span><span class="nk"> &lt;thuc&gt;</span> The purpose is to reclaim unused VMs.
+<a name="l-106"></a><span class="tm">02:41:04</span><span class="nk"> &lt;thuc&gt;</span> These could be VMs that are inaccessible due to failures during boot time.
+<a name="l-107"></a><span class="tm">02:41:22</span><span class="nk"> &lt;thuc&gt;</span> VMs whose owners are no longer active
+<a name="l-108"></a><span class="tm">02:41:53</span><span class="nk"> &lt;thuc&gt;</span> And also VMs that are no longer needed.
+<a name="l-109"></a><span class="tm">02:43:35</span><span class="nk"> &lt;thuc&gt;</span> The last one is tricky as it involves notifying the users
+<a name="l-110"></a><span class="tm">02:44:03</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> BTW this problem is relevant in private clouds more than public, since public clouds would gladly bill users
+<a name="l-111"></a><span class="tm">02:44:30</span><span class="nk"> &lt;gluong&gt;</span> would there be an UI component to this?
+<a name="l-112"></a><span class="tm">02:44:41</span><span class="nk"> &lt;gluong&gt;</span> or how will the service interact with the operator
+<a name="l-113"></a><span class="tm">02:45:05</span><span class="nk"> &lt;thuc&gt;</span> UI would be one way to do it.
+<a name="l-114"></a><span class="tm">02:45:50</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I guess once there is an API, UI and CLI can come in
+<a name="l-115"></a><span class="tm">02:46:06</span><span class="nk"> &lt;gluong&gt;</span> sounds good thank you
+<a name="l-116"></a><span class="tm">02:46:39</span><span class="nk"> &lt;thuc&gt;</span> questions?
+<a name="l-117"></a><span class="tm">02:48:02</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> can we move to the next one then?
+<a name="l-118"></a><span class="tm">02:48:08</span><span class="nk"> &lt;gluong&gt;</span> yes
+<a name="l-119"></a><span class="tm">02:48:21</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> dading - would you like to describe?
+<a name="l-120"></a><span class="tm">02:48:32</span><span class="nk"> &lt;dading&gt;</span> yep
+<a name="l-121"></a><span class="tm">02:49:02</span><span class="nk"> &lt;dading&gt;</span> right now the scheduler in nova is implemented in such a simple way
+<a name="l-122"></a><span class="tm">02:49:27</span><span class="nk"> &lt;dading&gt;</span> that it gets update from hypervisors every couple of mins
+<a name="l-123"></a><span class="tm">02:49:49</span><span class="nk"> &lt;dading&gt;</span> and base on that it goes through all the hypervisors when it needs to schedule a new instance
+<a name="l-124"></a><span class="tm">02:50:11</span><span class="nk"> &lt;dading&gt;</span> since there can be multiple filter applied
+<a name="l-125"></a><span class="tm">02:51:17</span><span class="nk"> &lt;dading&gt;</span> so basically the time cost for scheduling is linear of the number of filter * number of hypervisors
+<a name="l-126"></a><span class="tm">02:51:47</span><span class="nk"> &lt;dading&gt;</span> another problem is,
+<a name="l-127"></a><span class="tm">02:52:26</span><span class="nk"> &lt;dading&gt;</span> right now the scheduler doing static filter validation, and it does not take consideration of the runtime work load
+<a name="l-128"></a><span class="tm">02:52:59</span><span class="nk"> &lt;dading&gt;</span> so for example if there is a peak of provision,
+<a name="l-129"></a><span class="tm">02:53:33</span><span class="nk"> &lt;dading&gt;</span> it's likely to schedule all requests to small amount of hypervisors
+<a name="l-130"></a><span class="tm">02:53:48</span><span class="nk"> &lt;dading&gt;</span> leads to poor performance in that case.
+<a name="l-131"></a><span class="tm">02:54:08</span><span class="nk"> &lt;dading&gt;</span> this project is to address the performance of scheduling logic
+<a name="l-132"></a><span class="tm">02:54:25</span><span class="nk"> &lt;jevonyeoh&gt;</span> for the runtime, are there other models to possibly refer to for inspiration?
+<a name="l-133"></a><span class="tm">02:54:26</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> sorry to interrupt - just doing a timecheck. Are folks okay to stay for a few more minutes to complete this
+<a name="l-134"></a><span class="tm">02:54:38</span><span class="nk"> &lt;gluong&gt;</span> np here
+<a name="l-135"></a><span class="tm">02:54:39</span><span class="nk"> &lt;atheendra&gt;</span> Sure.
+<a name="l-136"></a><span class="tm">02:54:42</span><span class="nk"> &lt;vishwa&gt;</span> Sure
+<a name="l-137"></a><span class="tm">02:54:53</span><span class="nk"> &lt;Yu&gt;</span> Suew
+<a name="l-138"></a><span class="tm">02:54:58</span><span class="nk"> &lt;Yu&gt;</span> Sure*
+<a name="l-139"></a><span class="tm">02:55:01</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> thx
+<a name="l-140"></a><span class="tm">02:55:15</span><span class="nk"> &lt;dading&gt;</span> <span class="hi">jevonyeoh:</span> this is what to be identified in this project.
+<a name="l-141"></a><span class="tm">02:55:25</span><span class="nk"> &lt;dading&gt;</span> there can be multiple factors
+<a name="l-142"></a><span class="tm">02:55:45</span><span class="nk"> &lt;dading&gt;</span> that can be used to balance the selection of hypervisor
+<a name="l-143"></a><span class="tm">02:55:58</span><span class="nk"> &lt;dading&gt;</span> and as an output of this project
+<a name="l-144"></a><span class="tm">02:56:18</span><span class="nk"> &lt;jevonyeoh&gt;</span> ah ok, sounds interesting
+<a name="l-145"></a><span class="tm">02:56:33</span><span class="nk"> &lt;dading&gt;</span> we need to evaluate different factors, develop a framework to simulate different traffic,
+<a name="l-146"></a><span class="tm">02:56:51</span><span class="nk"> &lt;dading&gt;</span> and validate the performance based on the data
+<a name="l-147"></a><span class="tm">02:57:20</span><span class="nk"> &lt;dading&gt;</span> question?
+<a name="l-148"></a><span class="tm">02:57:32</span><span class="nk"> &lt;vishwa&gt;</span> <span class="hi">dading:</span> the case that you mention when you say "leads to poor performance in that case", how often does that occur in your opinion?
+<a name="l-149"></a><span class="tm">02:58:46</span><span class="nk"> &lt;dading&gt;</span> <span class="hi">vishwa:</span> this will depend on user behavior, but in many PaaS use case, users will provision a bunch of vms at same time
+<a name="l-150"></a><span class="tm">02:59:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Any other questions?
+<a name="l-151"></a><span class="tm">02:59:51</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Moving to the next one
+<a name="l-152"></a><span class="tm">02:59:56</span><span class="nk"> &lt;vishwa&gt;</span> <span class="hi">dading:</span> Why do you say that the scheduler will schedule all the requests to a small amount of hypervisors in peak of provision?
+<a name="l-153"></a><span class="tm">03:00:05</span><span class="nk"> &lt;vishwa&gt;</span> oh sorry subbu!
+<a name="l-154"></a><span class="tm">03:00:09</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I'll wait
+<a name="l-155"></a><span class="tm">03:00:39</span><span class="nk"> &lt;dading&gt;</span> <span class="hi">vishwa:</span> one reason is scheduler doesn't take consideration of other requests at that time.
+<a name="l-156"></a><span class="tm">03:00:58</span><span class="nk"> &lt;dading&gt;</span> it is basically static logic not based on runtime situation
+<a name="l-157"></a><span class="tm">03:01:12</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> welcome ropeck
+<a name="l-158"></a><span class="tm">03:01:28</span><span class="nk"> &lt;vishwa&gt;</span> thanks for clearing that up dading!
+<a name="l-159"></a><span class="tm">03:01:30</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We're discussing project 5 on https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
+<a name="l-160"></a><span class="tm">03:02:02</span><span class="nk"> &lt;ropeck&gt;</span> hi there!  finally got my irc going correctly
+<a name="l-161"></a><span class="tm">03:03:37</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> moving to the next one
+<a name="l-162"></a><span class="tm">03:04:12</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This project came up recently as we often run into performance issues that are extremely difficult to simulate in a lab setup
+<a name="l-163"></a><span class="tm">03:04:49</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Some of these problems show up when we have a large number of hypervisors
+<a name="l-164"></a><span class="tm">03:05:02</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Here is an example.
+<a name="l-165"></a><span class="tm">03:05:23</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> nova-compute nodes emit a heartbeat about VMs to nova.
+<a name="l-166"></a><span class="tm">03:05:30</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> These messages go over rabbitmq.
+<a name="l-167"></a><span class="tm">03:05:57</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Sometimes rabbitmq gets clogged up and usually melts down a good chunk of OpenStack APIs
+<a name="l-168"></a><span class="tm">03:06:07</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We deal with such issues in real life
+<a name="l-169"></a><span class="tm">03:06:30</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> So the idea is whether we can simulate such conditions without needing so much hardware
+<a name="l-170"></a><span class="tm">03:06:49</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> we're talking about 400+ nodes
+<a name="l-171"></a><span class="tm">03:07:44</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> With a simulator, we can inject a fake driver that makes it look like there are VMs. Basically nova-compute fakes it out when it gets a request to create a VM.
+<a name="l-172"></a><span class="tm">03:08:00</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> This allows us to simulate load with a small setup.
+<a name="l-173"></a><span class="tm">03:08:26</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> The takeaway for you is that you will learn how to write a driver for nova-compute and go through the full lifecycle
+<a name="l-174"></a><span class="tm">03:08:57</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> It allows any OpenStack operator to simulate their control plane (i.e. APIs, schedulers, rabbitmq, database etc)
+<a name="l-175"></a><span class="tm">03:08:59</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> for load
+<a name="l-176"></a><span class="tm">03:09:33</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> We will go through the flows of these projects again when we meet in about 10 days from now
+<a name="l-177"></a><span class="tm">03:09:51</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> comments? questions?
+<a name="l-178"></a><span class="tm">03:10:37</span><span class="nk"> &lt;Yu&gt;</span> So what are we supposed to do during the 10 days?
+<a name="l-179"></a><span class="tm">03:11:00</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> tough question ;)
+<a name="l-180"></a><span class="tm">03:11:24</span><span class="nk"> &lt;gluong&gt;</span> I believe there is still the hibernation of VM instances project that hasn't been mentioned
+<a name="l-181"></a><span class="tm">03:11:38</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> correct
+<a name="l-182"></a><span class="tm">03:12:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Yu - We have another short exercise to finish. Once that is done, we will finalize selection, and start working. Why wait?
+<a name="l-183"></a><span class="tm">03:12:35</span><span class="nk"> &lt;gluong&gt;</span> when should we expect the final selection to be announced?
+<a name="l-184"></a><span class="tm">03:12:46</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> As I indicated earlier, there are going to five of us to mentor.
+<a name="l-185"></a><span class="tm">03:12:47</span><span class="nk"> &lt;Yu&gt;</span> OK. Got it : )
+<a name="l-186"></a><span class="tm">03:13:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="hi">gluong:</span> shooting for this week. However, it is not clear how many students we have. Let's resume this after the last project
+<a name="l-187"></a><span class="tm">03:13:30</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="hi">ropeck:</span> your way
+<a name="l-188"></a><span class="tm">03:14:06</span><span class="nk"> &lt;ropeck&gt;</span> I added the vm hibernation project today - I can give a quick description, or answer questions if there are any
+<a name="l-189"></a><span class="tm">03:15:04</span><span class="nk"> &lt;ropeck&gt;</span> I missed the beginning of the chat, so I don't know what the discussion style is, so I'll try to be brief.
+<a name="l-190"></a><span class="tm">03:15:43</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> please go ahead to give an overview
+<a name="l-191"></a><span class="tm">03:15:43</span><span class="nk"> &lt;ropeck&gt;</span> The project's use case is when a hypervisor is full and we know many of the vms are not really needed today but could be difficult to recreate.
+<a name="l-192"></a><span class="tm">03:16:26</span><span class="nk"> &lt;ropeck&gt;</span> The intent is to make it simpler to remove them and recreate them with our tool than to try to justify using hypervisor resources every few weeks.
+<a name="l-193"></a><span class="tm">03:16:56</span><span class="nk"> &lt;ropeck&gt;</span> As I wrote in the email earlier, this is sort of a hard suspend of the vm.
+<a name="l-194"></a><span class="tm">03:17:59</span><span class="nk"> &lt;ropeck&gt;</span> If we only use 'nova pause' or 'nova suspend', the vm will still be present on the hypervisor taking local disk space and other resources.  The hibernated instance is not on the hypervisor.  It's only a disk and metadata file on a swift cluster.
+<a name="l-195"></a><span class="tm">03:18:50</span><span class="nk"> &lt;ropeck&gt;</span> The project will work out a scope and use case and then work to solve that case without extra features that will be complicated.
+<a name="l-196"></a><span class="tm">03:18:52</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> like cold storage?
+<a name="l-197"></a><span class="tm">03:19:38</span><span class="nk"> &lt;ropeck&gt;</span> For bonus points, we can consider things like migration between hypervisor types (kvm -&gt; esx?) or flavor changes when restoring the vm, etc.  but those would be extra and not part of the simpler first phase.
+<a name="l-198"></a><span class="tm">03:20:32</span><span class="nk"> &lt;ropeck&gt;</span> yes — cold storage in that the vm is not running and is no longer on the hypervisor at all.  The name hibernate may not be the best — we can choose something else to call the state/project that is clear
+<a name="l-199"></a><span class="tm">03:20:56</span><span class="nk"> &lt;ropeck&gt;</span> there are more details in the project write up, but those are the main points.
+<a name="l-200"></a><span class="tm">03:21:31</span><span class="nk"> &lt;ropeck&gt;</span> This is an active area we are working on in PayPal now, so it would be a real world type openstack project
+<a name="l-201"></a><span class="tm">03:23:20</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> questions?
+<a name="l-202"></a><span class="tm">03:23:21</span><span class="nk"> &lt;ropeck&gt;</span> any questions or things I can try to make more clear?
+<a name="l-203"></a><span class="tm">03:24:26</span><span class="nk"> &lt;gluong&gt;</span> when we say cold storage, are we referring to something like the open compute project?
+<a name="l-204"></a><span class="tm">03:26:14</span><span class="nk"> &lt;ropeck&gt;</span> I'm referring to storing the disk image of the vm in the regional swift or glance system, still in the same openstack cluster.
+<a name="l-205"></a><span class="tm">03:26:53</span><span class="nk"> &lt;ropeck&gt;</span> I hadn't thought about how this might be used to move a vm between openstack clusters.  That's a larger scope question, but interesting too.
+<a name="l-206"></a><span class="tm">03:27:58</span><span class="nk"> &lt;ropeck&gt;</span> cold storage (like this http://www.datanami.com/datanami/2013-10-18/facebook%E2%80%99s_open_compute_cold_storage_on_display.html) isn't something we have available in our architecture
+<a name="l-207"></a><span class="tm">03:28:36</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> I think once an API level write is made, where it ends up can be a deployment decision
+<a name="l-208"></a><span class="tm">03:28:50</span><span class="nk"> &lt;gluong&gt;</span> that was what i was thinking of.. but still very cool
+<a name="l-209"></a><span class="tm">03:29:33</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> any other questions
+<a name="l-210"></a><span class="tm">03:29:43</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> ?
+<a name="l-211"></a><span class="tm">03:30:20</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> If none, I would like to suggest the following
+<a name="l-212"></a><span class="tm">03:30:40</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> - Please take a look at the second exericse by email. thuc - could you email to the list?
+<a name="l-213"></a><span class="tm">03:30:59</span><span class="nk"> &lt;thuc&gt;</span> sure
+<a name="l-214"></a><span class="tm">03:31:36</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> - Give few more days for project selection. From what Prof Jay told me there should be 18 students, but we've about 12 on github
+<a name="l-215"></a><span class="tm">03:31:51</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> How does it sound?
+<a name="l-216"></a><span class="tm">03:31:57</span><span class="nk"> &lt;jevonyeoh&gt;</span> sounds good
+<a name="l-217"></a><span class="tm">03:32:09</span><span class="nk"> &lt;deen&gt;</span> sounds good
+<a name="l-218"></a><span class="tm">03:32:13</span><span class="nk"> &lt;Yu&gt;</span> Sounds good to me
+<a name="l-219"></a><span class="tm">03:32:26</span><span class="nk"> &lt;vishwa&gt;</span> Subbu I hadn't submitted my github id yet, here it is: vishwapatel
+<a name="l-220"></a><span class="tm">03:32:34</span><span class="nk"> &lt;Srinivasan&gt;</span> Mine's srinivasanv
+<a name="l-221"></a><span class="tm">03:32:38</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> could you all check if there are others from your uinv that've signed up for this OpenStack project but have not been participating yet
+<a name="l-222"></a><span class="tm">03:32:46</span><span class="nk"> &lt;deen&gt;</span> Mine is liudeen
+<a name="l-223"></a><span class="tm">03:32:47</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Willl add
+<a name="l-224"></a><span class="tm">03:33:01</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Any other topics?
+<a name="l-225"></a><span class="tm">03:34:13</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Great. If nothing, I will end the meeting, and email a link to the log
+<a name="l-226"></a><span class="tm">03:34:18</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> Good night
+<a name="l-227"></a><span class="tm">03:34:24</span><span class="nk"> &lt;vishwa&gt;</span> Subbu, in the future if we need to communicate with a specific mentor, should we email them directly or post on the google group?
+<a name="l-228"></a><span class="tm">03:34:25</span><span class="nk"> &lt;gluong&gt;</span> good night and thank you all
+<a name="l-229"></a><span class="tm">03:34:28</span><span class="nk"> &lt;vishwa&gt;</span> or something else?
+<a name="l-230"></a><span class="tm">03:34:29</span><span class="nk"> &lt;Srinivasan&gt;</span> Good night.
+<a name="l-231"></a><span class="tm">03:34:37</span><span class="nk"> &lt;dading&gt;</span> gn
+<a name="l-232"></a><span class="tm">03:34:42</span><span class="nk"> &lt;Yu&gt;</span> Good night.
+<a name="l-233"></a><span class="tm">03:34:48</span><span class="nk"> &lt;deen&gt;</span> good night
+<a name="l-234"></a><span class="tm">03:34:49</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="hi">vishwa:</span> I think group may be better since someone else may be able to help
+<a name="l-235"></a><span class="tm">03:34:58</span><span class="nk"> &lt;subbu_allamaraju&gt;</span> <span class="cmd">#endmeeting</span><span class="cmdline"></span></pre>
+</body></html>
