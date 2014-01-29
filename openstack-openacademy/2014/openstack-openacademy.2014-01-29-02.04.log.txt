@@ -208,3 +208,6 @@
 03:28:50 <gluong> that was what i was thinking of.. but still very cool
 03:29:33 <subbu_allamaraju> any other questions
 03:29:43 <subbu_allamaraju> ?
+03:30:20 <subbu_allamaraju> If none, I would like to suggest the following
+03:30:40 <subbu_allamaraju> - Please take a look at the second exericse by email. thuc - could you email to the list?
+03:30:59 <thuc> sure
