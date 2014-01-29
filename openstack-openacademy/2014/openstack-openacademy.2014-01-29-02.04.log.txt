@@ -192,3 +192,5 @@
 03:16:26 <ropeck> The intent is to make it simpler to remove them and recreate them with our tool than to try to justify using hypervisor resources every few weeks.
 03:16:56 <ropeck> As I wrote in the email earlier, this is sort of a hard suspend of the vm.
 03:17:59 <ropeck> If we only use 'nova pause' or 'nova suspend', the vm will still be present on the hypervisor taking local disk space and other resources.  The hibernated instance is not on the hypervisor.  It's only a disk and metadata file on a swift cluster.
+03:18:50 <ropeck> The project will work out a scope and use case and then work to solve that case without extra features that will be complicated.
+03:18:52 <subbu_allamaraju> like cold storage?
