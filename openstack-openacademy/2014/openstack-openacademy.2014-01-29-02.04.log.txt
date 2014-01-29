@@ -168,3 +168,5 @@
 03:06:07 <subbu_allamaraju> We deal with such issues in real life
 03:06:30 <subbu_allamaraju> So the idea is whether we can simulate such conditions without needing so much hardware
 03:06:49 <subbu_allamaraju> we're talking about 400+ nodes
+03:07:44 <subbu_allamaraju> With a simulator, we can inject a fake driver that makes it look like there are VMs. Basically nova-compute fakes it out when it gets a request to create a VM.
+03:08:00 <subbu_allamaraju> This allows us to simulate load with a small setup.
