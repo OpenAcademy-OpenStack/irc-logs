@@ -48,3 +48,5 @@
 02:20:14 <subbu_allamaraju> There was a blueprint in OpenStack. We will resurrect it, and try to submit code to OpenStack.
 02:20:45 <subbu_allamaraju> So it is important to polish the code and maintain the same conventions, unit tests etc.
 02:20:55 <subbu_allamaraju> any other questions on this project?
+02:21:40 <atheendra> Is there any reason for choosing this method over others?
+02:21:48 <subbu_allamaraju> such as?
