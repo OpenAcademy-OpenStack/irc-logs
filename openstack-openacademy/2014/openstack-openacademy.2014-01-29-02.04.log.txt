@@ -9,3 +9,6 @@
 02:06:35 <Srinivasan> sorry, wifi issues.
 02:06:39 <subbu_allamaraju> np
 02:06:53 <subbu_allamaraju> Before we get started, any other topics on the agenda?
+02:07:07 <subbu_allamaraju> Any feedback from devstack experience so far?
+02:07:09 <vishwa> hi subbu, I don't think we have write preferences on the google doc
+02:07:34 <subbu_allamaraju> vishwa: fixed
