@@ -170,3 +170,6 @@
 03:06:49 <subbu_allamaraju> we're talking about 400+ nodes
 03:07:44 <subbu_allamaraju> With a simulator, we can inject a fake driver that makes it look like there are VMs. Basically nova-compute fakes it out when it gets a request to create a VM.
 03:08:00 <subbu_allamaraju> This allows us to simulate load with a small setup.
+03:08:26 <subbu_allamaraju> The takeaway for you is that you will learn how to write a driver for nova-compute and go through the full lifecycle
+03:08:57 <subbu_allamaraju> It allows any OpenStack operator to simulate their control plane (i.e. APIs, schedulers, rabbitmq, database etc)
+03:08:59 <subbu_allamaraju> for load
