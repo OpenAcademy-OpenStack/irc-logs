@@ -75,3 +75,5 @@
 02:28:51 <subbu_allamaraju> exactly
 02:29:27 <subbu_allamaraju> The next one is Flyway
 02:29:41 <subbu_allamaraju> this is fairly complex as it involves multiple APIs.
+02:30:10 <subbu_allamaraju> This is not an uncommon problem in private cloud situations.
+02:30:45 <subbu_allamaraju> For instance, about a year ago we had an OpenStack deployment running Essex version of OpenStack, and we could not do a clean live upgrade to Folsom.
