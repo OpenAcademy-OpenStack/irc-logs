@@ -86,3 +86,6 @@
 02:33:22 <subbu_allamaraju> It was not good enough for reuse.
 02:33:31 <vishwa> ah I see, this would be a far more refined solution then
 02:33:44 <subbu_allamaraju> We refine it to be reusable on any OpenStack cloud
+02:34:02 <subbu_allamaraju> I'm sure a lot of operators will silently thanking the team that builds this.
+02:34:10 <subbu_allamaraju> will be
+02:34:55 <dading> subbu_allamaraju the vm needs a little clarification, like what aspects of the vm should be copied.
