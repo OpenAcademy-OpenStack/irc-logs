@@ -45,3 +45,6 @@
 02:19:08 <Srinivasan> okay, got t.
 02:19:10 <deen> Ok.
 02:19:14 <subbu_allamaraju> As part of the design process we will have to decide what goes into the token
+02:20:14 <subbu_allamaraju> There was a blueprint in OpenStack. We will resurrect it, and try to submit code to OpenStack.
+02:20:45 <subbu_allamaraju> So it is important to polish the code and maintain the same conventions, unit tests etc.
+02:20:55 <subbu_allamaraju> any other questions on this project?
