@@ -141,3 +141,6 @@
 02:55:25 <dading> there can be multiple factors
 02:55:45 <dading> that can be used to balance the selection of hypervisor
 02:55:58 <dading> and as an output of this project
+02:56:18 <jevonyeoh> ah ok, sounds interesting
+02:56:33 <dading> we need to evaluate different factors, develop a framework to simulate different traffic,
+02:56:51 <dading> and validate the performance based on the data
