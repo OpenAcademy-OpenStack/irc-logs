@@ -100,3 +100,5 @@
 02:38:31 <subbu_allamaraju> so, we need to solve for performance as well.
 02:38:48 <subbu_allamaraju> we will need to select some framework to do this concurrently
 02:39:01 <subbu_allamaraju> We used celery at that time, but there may  be better options now.
+02:39:28 <subbu_allamaraju> thuc - would you like todescribe Repoman?
+02:39:50 <thuc> sure
