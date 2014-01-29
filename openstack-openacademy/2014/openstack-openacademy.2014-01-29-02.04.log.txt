@@ -50,3 +50,4 @@
 02:20:55 <subbu_allamaraju> any other questions on this project?
 02:21:40 <atheendra> Is there any reason for choosing this method over others?
 02:21:48 <subbu_allamaraju> such as?
+02:22:23 <atheendra> Like a key within the user space which does not require the use of a username/password at all?
