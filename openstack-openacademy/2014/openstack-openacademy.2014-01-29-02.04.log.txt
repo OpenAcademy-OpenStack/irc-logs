@@ -136,3 +136,8 @@
 02:54:42 <vishwa> Sure
 02:54:53 <Yu> Suew
 02:54:58 <Yu> Sure*
+02:55:01 <subbu_allamaraju> thx
+02:55:15 <dading> jevonyeoh: this is what to be identified in this project.
+02:55:25 <dading> there can be multiple factors
+02:55:45 <dading> that can be used to balance the selection of hypervisor
+02:55:58 <dading> and as an output of this project
