@@ -12,3 +12,6 @@
 02:07:07 <subbu_allamaraju> Any feedback from devstack experience so far?
 02:07:09 <vishwa> hi subbu, I don't think we have write preferences on the google doc
 02:07:34 <subbu_allamaraju> vishwa: fixed
+02:08:08 <subbu_allamaraju> If no other items on the agenda we can get started
+02:08:57 <gluong> I was wondering if there will be any starter/good-first-bugs to work on
+02:09:02 <gluong> prior to the project start
