@@ -211,3 +211,6 @@
 03:30:20 <subbu_allamaraju> If none, I would like to suggest the following
 03:30:40 <subbu_allamaraju> - Please take a look at the second exericse by email. thuc - could you email to the list?
 03:30:59 <thuc> sure
+03:31:36 <subbu_allamaraju> - Give few more days for project selection. From what Prof Jay told me there should be 18 students, but we've about 12 on github
+03:31:51 <subbu_allamaraju> How does it sound?
+03:31:57 <jevonyeoh> sounds good
