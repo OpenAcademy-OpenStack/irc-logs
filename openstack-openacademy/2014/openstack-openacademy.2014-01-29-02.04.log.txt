@@ -4,3 +4,8 @@
 02:04:53 <osoabot> Useful Commands: #action #agreed #help #info #idea #link #topic.
 02:05:27 <subbu_allamaraju> The agenda today is to review https://github.com/OpenAcademy-OpenStack/project-docs/blob/master/projects.md
 02:05:52 <subbu_allamaraju> We have dading, thuc and myself from eBay
+02:06:13 <subbu_allamaraju> I've setup a google doc to note project preferences - https://docs.google.com/a/subbu.org/spreadsheet/ccc?key=0ApntcBgpHeZldHhaaTI1V2NBb0JqbUZSWkZJS3dFV1E&usp=drive_web#gid=0
+02:06:25 <subbu_allamaraju> This is to record first and second preferences
+02:06:35 <Srinivasan> sorry, wifi issues.
+02:06:39 <subbu_allamaraju> np
+02:06:53 <subbu_allamaraju> Before we get started, any other topics on the agenda?
