@@ -28,3 +28,4 @@
 02:12:42 <subbu_allamaraju> Great
 02:12:53 <subbu_allamaraju> Let's go project by project
 02:13:11 <subbu_allamaraju> First is to introduce two factor auth.
+02:14:10 <subbu_allamaraju> As you saw in the first exercise, users have to include their crendentials in scripts/code to talk to OpenStack APIs.
