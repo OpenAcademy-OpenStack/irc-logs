@@ -201,3 +201,5 @@
 03:23:20 <subbu_allamaraju> questions?
 03:23:21 <ropeck> any questions or things I can try to make more clear?
 03:24:26 <gluong> when we say cold storage, are we referring to something like the open compute project?
+03:26:14 <ropeck> I'm referring to storing the disk image of the vm in the regional swift or glance system, still in the same openstack cluster.
+03:26:53 <ropeck> I hadn't thought about how this might be used to move a vm between openstack clusters.  That's a larger scope question, but interesting too.
