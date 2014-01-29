@@ -73,3 +73,5 @@
 02:28:44 <Srinivasan> or is it up to the user to revoke the keys like on aws
 02:28:51 <Srinivasan> ah okay
 02:28:51 <subbu_allamaraju> exactly
+02:29:27 <subbu_allamaraju> The next one is Flyway
+02:29:41 <subbu_allamaraju> this is fairly complex as it involves multiple APIs.
