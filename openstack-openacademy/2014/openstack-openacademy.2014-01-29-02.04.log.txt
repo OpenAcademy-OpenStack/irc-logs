@@ -51,3 +51,6 @@
 02:21:40 <atheendra> Is there any reason for choosing this method over others?
 02:21:48 <subbu_allamaraju> such as?
 02:22:23 <atheendra> Like a key within the user space which does not require the use of a username/password at all?
+02:23:08 <subbu_allamaraju> Sure. We can discuss alternatives.
+02:23:42 <atheendra> OK, sounds good.
+02:23:43 <subbu_allamaraju> I also encourage you try how two factor auth works on google, AWS etc
