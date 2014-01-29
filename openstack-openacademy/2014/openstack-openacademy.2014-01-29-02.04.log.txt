@@ -186,3 +186,6 @@
 03:13:13 <subbu_allamaraju> gluong: shooting for this week. However, it is not clear how many students we have. Let's resume this after the last project
 03:13:30 <subbu_allamaraju> ropeck: your way
 03:14:06 <ropeck> I added the vm hibernation project today - I can give a quick description, or answer questions if there are any
+03:15:04 <ropeck> I missed the beginning of the chat, so I don't know what the discussion style is, so I'll try to be brief.
+03:15:43 <subbu_allamaraju> please go ahead to give an overview
+03:15:43 <ropeck> The project's use case is when a hypervisor is full and we know many of the vms are not really needed today but could be difficult to recreate.
