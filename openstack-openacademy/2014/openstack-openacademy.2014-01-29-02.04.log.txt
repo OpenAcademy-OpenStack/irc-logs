@@ -146,3 +146,4 @@
 02:56:51 <dading> and validate the performance based on the data
 02:57:20 <dading> question?
 02:57:32 <vishwa> dading: the case that you mention when you say "leads to poor performance in that case", how often does that occur in your opinion?
+02:58:46 <dading> vishwa: this will depend on user behavior, but in many PaaS use case, users will provision a bunch of vms at same time
