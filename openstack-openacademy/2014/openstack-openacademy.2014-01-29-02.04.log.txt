@@ -15,3 +15,7 @@
 02:08:08 <subbu_allamaraju> If no other items on the agenda we can get started
 02:08:57 <gluong> I was wondering if there will be any starter/good-first-bugs to work on
 02:09:02 <gluong> prior to the project start
+02:09:27 <subbu_allamaraju> Would another group exercise help?
+02:09:36 <theocean154> yep
+02:09:54 <theocean154> also as people get questions, email all the google group
+02:09:59 <subbu_allamaraju> I think thuc has one ready.
