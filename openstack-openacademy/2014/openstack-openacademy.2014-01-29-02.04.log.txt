@@ -214,3 +214,11 @@
 03:31:36 <subbu_allamaraju> - Give few more days for project selection. From what Prof Jay told me there should be 18 students, but we've about 12 on github
 03:31:51 <subbu_allamaraju> How does it sound?
 03:31:57 <jevonyeoh> sounds good
+03:32:09 <deen> sounds good
+03:32:13 <Yu> Sounds good to me
+03:32:26 <vishwa> Subbu I hadn't submitted my github id yet, here it is: vishwapatel
+03:32:34 <Srinivasan> Mine's srinivasanv
+03:32:38 <subbu_allamaraju> could you all check if there are others from your uinv that've signed up for this OpenStack project but have not been participating yet
+03:32:46 <deen> Mine is liudeen
+03:32:47 <subbu_allamaraju> Willl add
+03:33:01 <subbu_allamaraju> Any other topics?
